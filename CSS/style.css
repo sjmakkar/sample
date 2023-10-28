@@ -1,0 +1,120 @@
+/* Reset some default styles and set a global font */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, pre, code, table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Body styles */
+body {
+    background-color: #F4F7FB; /* Light blue-gray background */
+    color: #333; /* Dark gray text */
+    padding: 20px;
+    border-radius: 5px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #007ACC; /* Blue header background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Main content styles */
+main {
+    background-color: #fff; /* White background for content */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #007ACC; /* Blue footer background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Headings styles */
+h1, h2, h3, h4, h5, h6 {
+    color: #007ACC; /* Blue headings */
+    margin: 20px 0;
+}
+
+/* Links styles */
+a {
+    color: #007ACC; /* Blue links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* List styles */
+ul, ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #007ACC; /* Blue table header background */
+    color: #fff; /* White table header text */
+}
+
+/* Code block styles */
+pre {
+    background-color: #f5f5f5; /* Light gray background for code blocks */
+    padding: 10px;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+code {
+    font-family: Consolas, 'Courier New', monospace;
+    background-color: #f5f5f5;
+}
+
+/* Footnote styles */
+sup {
+    font-size: 12px;
+}
+
