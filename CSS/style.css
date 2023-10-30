@@ -1,5 +1,5 @@
 /* Reset some default styles and set a global font */
-body, h1, h2, h3, h4, h5, h6, p, ul, ol, pre, code, table {
+body, h2, h3, h4, h5, h6, p, ul, ol, pre, code, table {
     margin: 0;
     padding: 0;
     border: 0;
@@ -58,7 +58,11 @@ footer {
 }
 
 /* Headings styles */
-h1, h2, h3, h4, h5, h6 {
+h1{
+    color : white;
+    text-align: center;
+}
+ h2, h3, h4, h5, h6 {
     color: #007ACC; /* Blue headings */
     margin: 20px 0;
 }
